@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h1>Contact me</h1>
+  <p>geekynerd@gmail.com</p>
+
+  <hr>
+
+  <!-- <form class="" action="mailto:nagarajan.dandapani@gmail.com" method="post"> -->
+<form action="mailto:nagarajan.dandapani@gmail.com" method="post" enctype="text/plain">
+    <!-- to setup gmail as mailing client you can go to
+  chrome settings, privacy and security, site settings,additional settings, protocol handlers
+select sites can ask to handle protocols and under email remove gmail
+now go to gmail and on the top right corner browser task bar you will see the logo similar to the one that you say next
+ to "sites can ask to handle protocol handlers" click and select allow gmail to handle emails
+now close gmail and now run your app it will work
+
+
+if we want the text in mail bit more formatted, you can change the encoding,
+to do that remove the class="" from <form class="" and at the end add encording
+
+-->
+
+    <label for="name">Your name: </label>
+    <input type="text" name="name" id="name" required>
+    <br>
+    <br>
+    <label for="email">Your email: </label>
+    <input type="email" name="email" id="email" required>
+    <br>
+    <br>
+    <label for="message">Enter your message</label> <br>
+    <textarea name="message" rows="8" cols="50"></textarea>
+
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</body>
+
+</html>
